@@ -240,7 +240,25 @@ h6{
         height:auto;
         width:auto;
     }
+    .calcDisplay{
+        display:flex;
+        flex-direction: row;
+        color:white;
+        background-color: hsl(224, 36%, 15%);
+        margin-bottom: 15px;
+        border-radius: 8px;
+        height:100px;
+        min-height: 20%;
+        padding:30px;
+        min-width: 100%;
+        font-size: xx-large;
+        text-overflow: clip;
+        white-space: nowrap;
+        overflow:hidden; 
+    }
+    
     h1{
+        display: flex;
         width:100%;
         text-overflow: clip;
         white-space: nowrap;
