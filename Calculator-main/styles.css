@@ -223,7 +223,7 @@ h6{
         height: auto;
     }
     h1 span, h1 h3, h1 div {
-        display: inline;
+        color:blue;
     }
 }
     
