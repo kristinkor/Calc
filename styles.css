@@ -238,11 +238,13 @@ h6{
         width:auto;
     }
     h1{
-        display: flex;
         width:100%;
         text-overflow: clip;
         white-space: nowrap;
         overflow:hidden;
+    }
+    h1 span, h1 h3, h1 div {
+        display: inline;
     }
     .calcButtons{
         height: auto;
