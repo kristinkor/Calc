@@ -133,10 +133,10 @@ function theme1(){
         document.querySelectorAll(".headText")[i].style.color = "white";
     }
 
-    document.getElementsByClassName("t1")[0].style.visibility = "visible";
+    document.getElementsByClassName("t1")[0].style.display = "inline-block";
     document.getElementsByClassName("t1")[0].style.backgroundColor = "hsl(6, 63%, 50%)";
-    document.getElementsByClassName("t2")[0].style.visibility = "hidden";
-    document.getElementsByClassName("t3")[0].style.visibility = "hidden";
+    document.getElementsByClassName("t2")[0].style.display = "none";
+    document.getElementsByClassName("t3")[0].style.display = "none";
     document.getElementsByClassName("calcThemeColors")[0].style.backgroundColor = "hsl(223, 31%, 20%)";
 
 }
@@ -167,10 +167,10 @@ function theme2(){
         document.querySelectorAll(".headText")[i].style.color = "black";
     }
 
-    document.getElementsByClassName("t1")[0].style.visibility = "hidden";
-    document.getElementsByClassName("t2")[0].style.visibility = "visible";
+    document.getElementsByClassName("t1")[0].style.display = "none";
+    document.getElementsByClassName("t2")[0].style.display = "inline-block";
     document.getElementsByClassName("t2")[0].style.backgroundColor = "hsl(25, 98%, 40%)";
-    document.getElementsByClassName("t3")[0].style.visibility = "hidden";
+    document.getElementsByClassName("t3")[0].style.display = "none";
     document.getElementsByClassName("calcThemeColors")[0].style.backgroundColor = "hsl(0, 5%, 81%)";
 
 }
@@ -193,7 +193,7 @@ function theme3(){
 
     document.querySelector(".equal").style.backgroundColor = "hsl(176, 100%, 44%)";
     document.querySelector(".equal").style.boxShadow = "0px 5px hsl(177, 92%, 70%)";
-    document.querySelector(".equal").style.color = "hsl(0, 0, 100%)";
+    document.querySelector(".equal h3").style.color = "hsl(0, 0, 100%)";
 
     for (i=0 ; i<15; i++){
         document.querySelectorAll(".textcol")[i].style.color = "hsl(52, 100%, 62%)";
@@ -203,9 +203,9 @@ function theme3(){
         document.querySelectorAll(".headText")[i].style.color = "hsl(52, 100%, 62%)";
     }
 
-    document.getElementsByClassName("t1")[0].style.visibility = "hidden";
-    document.getElementsByClassName("t2")[0].style.visibility = "hidden";
-    document.getElementsByClassName("t3")[0].style.visibility = "visible";
+    document.getElementsByClassName("t1")[0].style.display = "none";
+    document.getElementsByClassName("t2")[0].style.display = "none";
+    document.getElementsByClassName("t3")[0].style.display = "inline-block";
     document.getElementsByClassName("t3")[0].style.backgroundColor = "hsl(176, 100%, 44%)";
     document.getElementsByClassName("calcThemeColors")[0].style.backgroundColor = "hsl(268, 71%, 12%)";
 
