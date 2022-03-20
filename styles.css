@@ -249,6 +249,9 @@ h6{
     h1 span, h1 h3, h1 div {
         display: inline;
     }
+    h1 span, h1 h3, h1 div ,h1 * {
+        color:blue;
+    }
     .calcButtons{
         height: auto;
     }
